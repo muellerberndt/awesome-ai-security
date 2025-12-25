@@ -1,0 +1,230 @@
+{
+  "nodes": [
+    {
+      "id": "ml_basics",
+      "title": "ML Foundations",
+      "category": "ML Basics",
+      "description": "Essential machine learning concepts and courses to build a foundation before diving into AI security.",
+      "lane": "core",
+      "tier": 0,
+      "dependencies": [],
+      "match": {
+        "categories": ["Courses"],
+        "keywords": ["andrew ng", "coursera", "specialization", "cs229", "fast.ai", "practical deep learning"],
+        "excludeKeywords": ["air-bench", "benchmark"],
+        "matchMode": "category-or-keyword",
+        "limit": 5
+      }
+    },
+    {
+      "id": "dl_fundamentals",
+      "title": "Deep Learning",
+      "category": "Deep Learning",
+      "description": "Deep dive into neural networks, transformers, and the architectures behind modern AI systems.",
+      "lane": "core",
+      "tier": 1,
+      "dependencies": ["ml_basics"],
+      "match": {
+        "categories": ["Books"],
+        "keywords": ["deep learning", "goodfellow", "dive into", "d2l.ai", "neural network", "nielsen", "deeplearningbook"],
+        "excludeKeywords": ["adversarial machine learning", "security", "attack", "cambridge", "adversarial examples"],
+        "matchMode": "keyword",
+        "limit": 5
+      }
+    },
+    {
+      "id": "prompt_injection",
+      "title": "Prompt Injection",
+      "category": "Prompt Injection",
+      "description": "Understand prompt injection attacks that manipulate LLM behavior through crafted inputs.",
+      "lane": "hacking_ai",
+      "tier": 2,
+      "dependencies": ["dl_fundamentals"],
+      "match": {
+        "keywords": ["prompt injection", "prompt attack", "jailbreak", "llm manipulation"],
+        "matchMode": "keyword",
+        "limit": 10
+      }
+    },
+    {
+      "id": "adversarial_attacks",
+      "title": "Adversarial Attacks",
+      "category": "Adversarial Attacks",
+      "description": "Learn how adversarial examples fool neural networks and methods to defend against them.",
+      "lane": "hacking_ai",
+      "tier": 3,
+      "dependencies": ["dl_fundamentals"],
+      "match": {
+        "keywords": ["adversarial", "evasion", "perturbation", "acl 2024 tutorial"],
+        "excludeKeywords": ["prompt", "book", "robustbench", "trustllm", "mitre atlas", "benchmark"],
+        "matchMode": "keyword",
+        "limit": 10
+      }
+    },
+    {
+      "id": "poisoning_backdoors",
+      "title": "Poisoning & Backdoors",
+      "category": "Poisoning & Backdoors",
+      "description": "Data poisoning attacks and neural network backdoors that compromise model integrity.",
+      "lane": "hacking_ai",
+      "tier": 4,
+      "dependencies": ["adversarial_attacks"],
+      "match": {
+        "keywords": ["poisoning", "backdoor", "trojan", "data poison"],
+        "excludeKeywords": ["owasp genai security project"],
+        "matchMode": "keyword",
+        "limit": 8
+      }
+    },
+    {
+      "id": "privacy_extraction",
+      "title": "Privacy & Extraction",
+      "category": "Privacy & Extraction",
+      "description": "Model extraction, membership inference, and training data extraction attacks.",
+      "lane": "hacking_ai",
+      "tier": 5,
+      "dependencies": ["adversarial_attacks"],
+      "match": {
+        "keywords": ["extraction", "privacy", "membership inference", "model stealing", "memorization", "watermark", "leeching"],
+        "matchMode": "keyword",
+        "limit": 10
+      }
+    },
+    {
+      "id": "tools_hacking_ai",
+      "title": "Tools & Frameworks",
+      "category": "Tools - Hacking AI",
+      "description": "Security tools for testing and defending AI systems against adversarial attacks.",
+      "lane": "hacking_ai",
+      "tier": 6,
+      "dependencies": ["prompt_injection", "adversarial_attacks"],
+      "match": {
+        "categories": ["Tools"],
+        "keywords": ["ART", "counterfit", "rebuff", "guardrails", "textattack", "secml", "garak", "vigil", "easyjailbreak", "nemo", "purple llama"],
+        "excludeKeywords": ["hackgpt", "hackingbuddy", "ghidra", "pyrit", "burpgpt", "cai", "semgrep", "pentest", "hound", "scabench", "ai security analyzer", "modern approach"],
+        "matchMode": "category-or-keyword",
+        "limit": 12
+      }
+    },
+    {
+      "id": "ai_pentesting",
+      "title": "AI Pentesting",
+      "category": "AI Pentesting",
+      "description": "Using AI assistants and agents for automated penetration testing and security assessments.",
+      "lane": "hacking_with_ai",
+      "tier": 2,
+      "dependencies": ["dl_fundamentals"],
+      "match": {
+        "keywords": ["pentestgpt", "pentest", "penetration testing", "ethical hack", "ai pentest"],
+        "excludeKeywords": ["owasp genai", "air-bench", "benchmark", "red teaming language"],
+        "matchMode": "keyword",
+        "limit": 10
+      }
+    },
+    {
+      "id": "vuln_detection",
+      "title": "Vulnerability Detection",
+      "category": "Vulnerability Detection",
+      "description": "AI-powered vulnerability scanning, code analysis, and bug detection.",
+      "lane": "hacking_with_ai",
+      "tier": 3,
+      "dependencies": ["ai_pentesting"],
+      "match": {
+        "keywords": ["vulnerability detection", "code analysis", "bug detection", "copilot security", "ai-generated code", "llms in software security", "secure coding", "semgrep"],
+        "matchMode": "keyword",
+        "limit": 8
+      }
+    },
+    {
+      "id": "exploit_generation",
+      "title": "Exploit Generation",
+      "category": "Exploit Generation",
+      "description": "AI-assisted exploit development and attack automation techniques.",
+      "lane": "hacking_with_ai",
+      "tier": 4,
+      "dependencies": ["vuln_detection"],
+      "match": {
+        "keywords": ["exploit", "attack automation", "smart contract exploit", "ai agent exploit", "one-day vulnerab", "cve"],
+        "matchMode": "keyword",
+        "limit": 8
+      }
+    },
+    {
+      "id": "tools_hacking_with_ai",
+      "title": "AI Security Tools",
+      "category": "Tools - Hacking with AI",
+      "description": "Tools that leverage AI for offensive security operations and analysis.",
+      "lane": "hacking_with_ai",
+      "tier": 5,
+      "dependencies": ["ai_pentesting"],
+      "match": {
+        "categories": ["Tools"],
+        "keywords": ["hackgpt", "hackingbuddy", "ghidragpt", "ghidra-gpt", "ghidrassist", "pyrit", "burpgpt", "cai", "ai security analyzer", "hound"],
+        "matchMode": "keyword",
+        "limit": 12
+      }
+    },
+    {
+      "id": "benchmarks_standards",
+      "title": "Benchmarks & Standards",
+      "category": "Benchmarks & Standards",
+      "description": "Industry standards, threat frameworks, and evaluation benchmarks for AI security.",
+      "lane": "core",
+      "tier": 7,
+      "dependencies": ["tools_hacking_ai", "tools_hacking_with_ai"],
+      "match": {
+        "categories": ["Benchmarks", "Standards"],
+        "keywords": ["owasp top 10", "owasp llm", "robustbench", "jailbreakbench", "mitre atlas", "nist", "air-bench", "trustllm", "fli ai safety", "ai risk management", "scabench"],
+        "excludeKeywords": ["genai.owasp.org/llmrisk"],
+        "matchMode": "category-or-keyword",
+        "limit": 12
+      }
+    },
+    {
+      "id": "books",
+      "title": "Books",
+      "category": "Books",
+      "description": "Essential books covering AI security, adversarial ML, and security applications.",
+      "lane": "core",
+      "tier": 8,
+      "dependencies": [],
+      "match": {
+        "categories": ["Books"],
+        "keywords": ["russell", "norvig", "chio", "freeman", "machine learning and security", "modern approach", "cambridge", "adversarial machine learning", "adversarial learning", "elsevier"],
+        "matchMode": "keyword",
+        "limit": 8
+      }
+    },
+    {
+      "id": "community_events",
+      "title": "Communities & Events",
+      "category": "Communities & Events",
+      "description": "AI security communities, conferences, and events to stay connected.",
+      "lane": "core",
+      "tier": 9,
+      "dependencies": [],
+      "match": {
+        "categories": ["Communities", "Events", "Podcasts"],
+        "keywords": ["owasp genai security project", "ai village", "def con", "mlsecops", "podcast", "avid"],
+        "excludeKeywords": ["llmrisk"],
+        "matchMode": "category-or-keyword",
+        "limit": 8
+      }
+    },
+    {
+      "id": "newsletters_lists",
+      "title": "Newsletters & Lists",
+      "category": "Newsletters & Lists",
+      "description": "Newsletters and awesome lists to stay current with AI security developments.",
+      "lane": "core",
+      "tier": 10,
+      "dependencies": [],
+      "match": {
+        "categories": ["Newsletters", "Awesome Lists"],
+        "keywords": ["newsletter", "awesome", "digest", "github.com/"],
+        "matchMode": "category-or-keyword",
+        "limit": 10
+      }
+    }
+  ]
+}

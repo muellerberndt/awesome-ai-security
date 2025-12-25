@@ -1,0 +1,562 @@
+[
+  {
+    "title": "Hound",
+    "url": "https://github.com/scabench-org/hound",
+    "description": "AI auditor that builds adaptive knowledge graphs for deep code reasoning. Uses tiered AI approach for autonomous vulnerability discovery.",
+    "category": "Tools",
+    "priority": true
+  },
+  {
+    "title": "ScaBench",
+    "url": "https://github.com/scabench-org/scabench",
+    "description": "Smart contract audit benchmark with 500+ real-world vulnerabilities from Code4rena, Cantina, and Sherlock for evaluating AI audit agents.",
+    "category": "Benchmarks",
+    "priority": true
+  },
+  {
+    "title": "Stanford CS229: Machine Learning",
+    "url": "https://cs229.stanford.edu/",
+    "description": "Stanford's foundational ML course covering supervised learning, deep learning, generalization, and unsupervised learning. Taught by leaders in the field.",
+    "category": "Courses"
+  },
+  {
+    "title": "fast.ai Practical Deep Learning for Coders",
+    "url": "https://course.fast.ai/",
+    "description": "Free, top-down approach to deep learning with PyTorch. Covers computer vision, NLP, and tabular data with hands-on Jupyter notebooks.",
+    "category": "Courses"
+  },
+  {
+    "title": "Deep Learning Specialization by Andrew Ng",
+    "url": "https://www.coursera.org/specializations/deep-learning",
+    "description": "A fantastic 5-course series on neural networks and deep learning fundamentals—beginner-friendly and taught by AI pioneer Andrew Ng. Auditable for free.",
+    "category": "Courses"
+  },
+  {
+    "title": "Dive into Deep Learning",
+    "url": "https://d2l.ai/",
+    "description": "Interactive deep learning book with code (PyTorch, JAX, TensorFlow), math, and exercises. Adopted at 500+ universities including Stanford, MIT, Harvard.",
+    "category": "Books"
+  },
+  {
+    "title": "Neural Networks and Deep Learning (Michael Nielsen)",
+    "url": "http://neuralnetworksanddeeplearning.com/",
+    "description": "Free online book explaining the core concepts behind neural networks with excellent intuition and interactive visualizations.",
+    "category": "Books"
+  },
+  {
+    "title": "Deep Learning by Ian Goodfellow, Yoshua Bengio, Aaron Courville",
+    "url": "https://www.deeplearningbook.org/",
+    "description": "The go-to textbook for deep learning theory and math. Freely available online.",
+    "category": "Books"
+  },
+  {
+    "title": "Prompt Injection & the Rise of Prompt Attacks: All You Need to Know",
+    "url": "https://www.lakera.ai/blog/guide-to-prompt-injection",
+    "description": "Explains prompt injection threats, examples, and mitigations.",
+    "category": "Articles"
+  },
+  {
+    "title": "A Brief Introduction to Adversarial Examples",
+    "url": "https://gradientscience.org/intro_adversarial/",
+    "description": "High-level overview of adversarial examples fooling neural networks by Madry and Schmidt.",
+    "category": "Articles"
+  },
+  {
+    "title": "OpenAI Says AI Browsers May Always Be Vulnerable to Prompt Injection Attacks",
+    "url": "https://techcrunch.com/2025/12/22/openai-says-ai-browsers-may-always-be-vulnerable-to-prompt-injection-attacks/",
+    "description": "Discusses ongoing risks and hardening efforts for agentic AI like Atlas.",
+    "category": "Articles"
+  },
+  {
+    "title": "Prompt Injection Attacks in 2025: Risks, Defenses & Testing",
+    "url": "https://redbotsecurity.com/prompt-injection-attacks-ai-security-2025/",
+    "description": "Mainstream risks and testing strategies for prompt injections.",
+    "category": "Articles"
+  },
+  {
+    "title": "Prompt Injection Attacks: The Most Common AI Exploit in 2025",
+    "url": "https://www.obsidiansecurity.com/blog/prompt-injection",
+    "description": "Detection, blocking, and mitigation for growing prompt injection threats.",
+    "category": "Articles"
+  },
+  {
+    "title": "Key Concepts in AI Safety: Robustness and Adversarial Examples",
+    "url": "https://cset.georgetown.edu/publication/key-concepts-in-ai-safety-robustness-and-adversarial-examples/",
+    "description": "Places adversarial robustness in AI safety context.",
+    "category": "Papers"
+  },
+  {
+    "title": "Witches' Brew: Industrial Scale Data Poisoning via Gradient Matching",
+    "url": "https://arxiv.org/abs/2009.02276",
+    "description": "Clean-label poisoning at scale. arXiv:2009.02276, 2021.",
+    "category": "Papers"
+  },
+  {
+    "title": "Extracting Training Data from Large Language Models",
+    "url": "https://www.usenix.org/conference/usenixsecurity21/presentation/carlini-extracting",
+    "description": "Privacy attacks via memorization. USENIX Security 2021.",
+    "category": "Papers"
+  },
+  {
+    "title": "International AI Safety Report 2025",
+    "url": "https://internationalaisafetyreport.org/publication/international-ai-safety-report-2025",
+    "description": "Summarizes evidence on general-purpose AI safety, including robustness.",
+    "category": "Reports"
+  },
+  {
+    "title": "A Meta-Survey of Adversarial Attacks Against Artificial Intelligence Systems",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0925231225019034",
+    "description": "Umbrella review of attacks on DNNs. Neurocomputing, 2025.",
+    "category": "Papers"
+  },
+  {
+    "title": "Adversarial Attacks and Defenses in AI Systems: Challenges, Strategies, and Future Directions",
+    "url": "https://rsisinternational.org/journals/ijrias/articles/adversarial-attacks-and-defenses-in-ai-systems-challenges-strategies-and-future-directions/",
+    "description": "Comprehensive review of attacks and defenses. RSIS International, 2025.",
+    "category": "Papers"
+  },
+  {
+    "title": "A Survey of Adversarial Examples in Computer Vision",
+    "url": "https://wujns.edpsciences.org/articles/wujns/full_html/2025/01/wujns-1007-1202-2025-01-0001-20/wujns-1007-1202-2025-01-0001-20.html",
+    "description": "Attack algorithms and defenses for vision models. 2025.",
+    "category": "Papers"
+  },
+  {
+    "title": "LLM01:2025 Prompt Injection",
+    "url": "https://genai.owasp.org/llmrisk/llm01-prompt-injection/",
+    "description": "Updated risk overview for manipulating model behavior. OWASP Gen AI Security Project, 2025.",
+    "category": "Standards"
+  },
+  {
+    "title": "Adversarial Robustness Toolbox (ART)",
+    "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox",
+    "description": "IBM library for attacks and defenses for ML security.",
+    "category": "Tools"
+  },
+  {
+    "title": "Counterfit",
+    "url": "https://github.com/Azure/counterfit",
+    "description": "Microsoft penetration testing tool for ML systems.",
+    "category": "Tools"
+  },
+  {
+    "title": "Rebuff",
+    "url": "https://github.com/protectai/rebuff",
+    "description": "Self-hardening prompt injection detector by ProtectAI.",
+    "category": "Tools"
+  },
+  {
+    "title": "Garak",
+    "url": "https://github.com/NVIDIA/garak",
+    "description": "NVIDIA's LLM vulnerability scanner with dozens of plugins testing for jailbreaks, prompt injection, data leakage, and more.",
+    "category": "Tools"
+  },
+  {
+    "title": "Vigil LLM",
+    "url": "https://github.com/deadbits/vigil-llm",
+    "description": "Detects prompt injections and risky inputs.",
+    "category": "Tools"
+  },
+  {
+    "title": "EasyJailbreak",
+    "url": "https://github.com/EasyJailbreak/EasyJailbreak",
+    "description": "Framework for adversarial jailbreak prompts.",
+    "category": "Tools"
+  },
+  {
+    "title": "PentestGPT",
+    "url": "https://github.com/GreyDGL/PentestGPT",
+    "description": "GPT-4 powered autonomous penetration testing agent. Published at USENIX Security 2024.",
+    "category": "Tools"
+  },
+  {
+    "title": "Top 10 AI Pentesting Tools (2025)",
+    "url": "https://mindgard.ai/blog/top-ai-pentesting-tools",
+    "description": "Highlights tools like Mindgard, Burp Suite, and PentestGPT.",
+    "category": "Articles"
+  },
+  {
+    "title": "Best AI Pentesting Tools in 2026",
+    "url": "https://escape.tech/blog/best-ai-pentesting-tools/",
+    "description": "Focus on detecting business logic flaws.",
+    "category": "Articles"
+  },
+  {
+    "title": "9 AI Enabled Cybersecurity Tools in 2025",
+    "url": "https://www.packetlabs.net/posts/9-ai-enabled-cybersecurity-tools-in-2025/",
+    "description": "Includes PenTest++ and CIPHER for ethical hacking.",
+    "category": "Articles"
+  },
+  {
+    "title": "Top AI Pentesting Tools in 2025: PentestGPT vs. Penligent vs. PentestAI",
+    "url": "https://www.penligent.ai/hackinglabs/top-ai-pentesting-tools-in-2025-pentestgpt-vs-penligent-vs-pentestai-reviewed/",
+    "description": "Comparison of features and automation.",
+    "category": "Articles"
+  },
+  {
+    "title": "AI Coding Tools Exploded in 2025: The First Security Exploits Followed",
+    "url": "https://fortune.com/2025/12/15/ai-coding-tools-security-exploit-software/",
+    "description": "Discusses vulnerabilities in AI-generated code.",
+    "category": "Articles"
+  },
+  {
+    "title": "PentestGPT: An LLM-empowered Automatic Penetration Testing Tool",
+    "url": "https://arxiv.org/abs/2308.06782",
+    "description": "Design and evaluation of autonomous pentesting. arXiv:2308.06782, 2024.",
+    "category": "Papers"
+  },
+  {
+    "title": "LLM Agents can Autonomously Exploit One-day Vulnerabilities",
+    "url": "https://arxiv.org/abs/2404.08144",
+    "description": "GPT-4 agents can exploit real CVEs given descriptions. Raises questions about LLM deployment. arXiv:2404.08144, 2024.",
+    "category": "Papers"
+  },
+  {
+    "title": "A Survey of Bugs in AI-Generated Code",
+    "url": "https://arxiv.org/abs/2512.05239",
+    "description": "Empirical study on functional and security bugs. arXiv:2512.05239, 2025.",
+    "category": "Papers"
+  },
+  {
+    "title": "AI Agent Exploit Generation in Smart Contracts",
+    "url": "https://www.emergentmind.com/topics/ai-agent-smart-contract-exploit-generation",
+    "description": "Autonomous exploit generation using LLMs.",
+    "category": "Papers"
+  },
+  {
+    "title": "OWASP Gen AI Incident & Exploit Round-up, Q2'25",
+    "url": "https://genai.owasp.org/2025/07/14/owasp-gen-ai-incident-exploit-round-up-q225/",
+    "description": "Tracks exploits targeting/involving GenAI.",
+    "category": "Reports"
+  },
+  {
+    "title": "AI-Powered Attack Automation: When Machine Learning Writes the Exploit Code",
+    "url": "https://medium.com/@instatunnel/wwai-powered-attack-automation-when-machine-learning-writes-the-exploit-code-9eb00af91a51",
+    "description": "Projections on AI-driven cyberattacks.",
+    "category": "Articles"
+  },
+  {
+    "title": "Exploring the Role of Generative AI in Enhancing Cybersecurity",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590005625001365",
+    "description": "GenAI for vulnerability detection and secure coding. Computers & Security, 2025.",
+    "category": "Papers"
+  },
+  {
+    "title": "HackGPT",
+    "url": "https://github.com/NoDataFound/hackGPT",
+    "description": "LLM toolkit for offensive security.",
+    "category": "Tools"
+  },
+  {
+    "title": "HackingBuddyGPT",
+    "url": "https://github.com/ipa-lab/hackingBuddyGPT",
+    "description": "Autonomous red-teaming agent with benchmarks.",
+    "category": "Tools"
+  },
+  {
+    "title": "GhidraGPT",
+    "url": "https://github.com/ZeroDaysBroker/GhidraGPT",
+    "description": "Integrates GPT models into Ghidra for automated code analysis, vulnerability detection, and explanation generation.",
+    "category": "Tools"
+  },
+  {
+    "title": "GhidrAssist",
+    "url": "https://github.com/jtang613/GhidrAssist",
+    "description": "LLM extension for Ghidra with ReAct agentic mode for autonomous reverse engineering investigation.",
+    "category": "Tools"
+  },
+  {
+    "title": "PyRIT (Python Risk Identification Tool)",
+    "url": "https://github.com/Azure/PyRIT",
+    "description": "Microsoft red-teaming framework for generative AI. Automates adversarial prompt generation and risk assessment.",
+    "category": "Tools"
+  },
+  {
+    "title": "AI Security Analyzer",
+    "url": "https://github.com/xvnpw/ai-security-analyzer",
+    "description": "Generates security docs from codebases.",
+    "category": "Tools"
+  },
+  {
+    "title": "BurpGPT",
+    "url": "https://github.com/aress31/burpgpt",
+    "description": "Burp Suite extension for AI-powered vulnerability scanning.",
+    "category": "Tools"
+  },
+  {
+    "title": "CAI: Cybersecurity AI",
+    "url": "https://github.com/aliasrobotics/cai",
+    "description": "Framework for building AI-driven security tools by Alias Robotics.",
+    "category": "Tools"
+  },
+  {
+    "title": "Semgrep",
+    "url": "https://semgrep.dev/",
+    "description": "AI-assisted SAST combining rules-based scanning with LLM-powered detection for business logic flaws like IDORs.",
+    "category": "Tools"
+  },
+  {
+    "title": "Adversarial Machine Learning (Cambridge)",
+    "url": "https://www.cambridge.org/core/books/adversarial-machine-learning/C42A9D49CBC626DF7B8E54E72974AA3B",
+    "description": "Complete introduction to building robust ML in adversarial environments. By Joseph, Nelson, Rubinstein, and Tygar.",
+    "category": "Books"
+  },
+  {
+    "title": "Adversarial Learning and Secure AI (Cambridge, 2023)",
+    "url": "https://www.cambridge.org/highereducation/books/adversarial-learning-and-secure-ai/79986B5D288511757C2A95D71262E039",
+    "description": "First textbook on adversarial learning. Hands-on projects for defending against attacks.",
+    "category": "Books"
+  },
+  {
+    "title": "Adversarial Robustness for Machine Learning (Elsevier)",
+    "url": "https://www.sciencedirect.com/book/9780128240205/adversarial-robustness-for-machine-learning",
+    "description": "Comprehensive coverage of adversarial attack, defense, and verification by Pin-Yu Chen (IBM Research).",
+    "category": "Books"
+  },
+  {
+    "title": "Machine Learning and Security",
+    "url": "https://www.oreilly.com/library/view/machine-learning-and/9781491979891/",
+    "description": "ML in cybersecurity and evasions by Clarence Chio and David Freeman (2018).",
+    "category": "Books"
+  },
+  {
+    "title": "Artificial Intelligence: A Modern Approach",
+    "url": "https://aima.cs.berkeley.edu/",
+    "description": "Broad AI algorithms background by Stuart Russell and Peter Norvig.",
+    "category": "Books"
+  },
+  {
+    "title": "OWASP GenAI Security Project",
+    "url": "https://genai.owasp.org/",
+    "description": "Global initiative for GenAI security including Top 10 for LLMs, Agentic AI risks, and red teaming guides.",
+    "category": "Communities"
+  },
+  {
+    "title": "AI Village @ DEF CON",
+    "url": "https://aivillage.org/",
+    "description": "Challenges like LLM Jailbreak and AI security research.",
+    "category": "Communities"
+  },
+  {
+    "title": "MLSecOps Podcast",
+    "url": "https://mlsecops.com/podcast",
+    "description": "ML security discussions and interviews.",
+    "category": "Podcasts"
+  },
+  {
+    "title": "GenAI Security Podcast",
+    "url": "https://podcasts.apple.com/ph/podcast/the-genai-security-podcast/id1782916580",
+    "description": "Generative AI security topics and news.",
+    "category": "Podcasts"
+  },
+  {
+    "title": "AI Security Newsletter",
+    "url": "https://github.com/TalEliyahu/awesome-security-newsletters",
+    "description": "Research and threats digest collection.",
+    "category": "Newsletters"
+  },
+  {
+    "title": "TalEliyahu/Awesome-AI-Security",
+    "url": "https://github.com/TalEliyahu/Awesome-AI-Security",
+    "description": "Governance and tools focus awesome list.",
+    "category": "Awesome Lists"
+  },
+  {
+    "title": "ottosulin/awesome-ai-security",
+    "url": "https://github.com/ottosulin/awesome-ai-security",
+    "description": "Offensive tools and labs awesome list.",
+    "category": "Awesome Lists"
+  },
+  {
+    "title": "ElNiak/awesome-ai-cybersecurity",
+    "url": "https://github.com/ElNiak/awesome-ai-cybersecurity",
+    "description": "AI in cybersecurity awesome list.",
+    "category": "Awesome Lists"
+  },
+  {
+    "title": "corca-ai/awesome-llm-security",
+    "url": "https://github.com/corca-ai/awesome-llm-security",
+    "description": "LLM-specific security awesome list.",
+    "category": "Awesome Lists"
+  },
+  {
+    "title": "Instruction Backdoor Attacks on Customized LLMs",
+    "url": "https://arxiv.org/abs/2402.09179",
+    "description": "Prompt-based backdoors in custom LLMs without weight modification. arXiv:2402.09179, 2024.",
+    "category": "Papers"
+  },
+  {
+    "title": "Poisoning Attacks Need Only a Few Points",
+    "url": "https://arxiv.org/abs/2510.07192",
+    "description": "Constant-size poisoning effective even on web-scale models. arXiv:2510.07192, 2025.",
+    "category": "Papers"
+  },
+  {
+    "title": "Red Teaming Language Models to Reduce Harms",
+    "url": "https://arxiv.org/abs/2209.07858",
+    "description": "Systematic red teaming findings and public dataset. Anthropic, arXiv:2209.07858, 2022.",
+    "category": "Papers"
+  },
+  {
+    "title": "MNTD: Detecting AI Trojans Using Meta Neural Analysis",
+    "url": "https://arxiv.org/abs/1910.03137",
+    "description": "Black-box Trojan detection with high AUC. arXiv:1910.03137, 2021.",
+    "category": "Papers"
+  },
+  {
+    "title": "Beatrix: Robust Backdoor Detection via Gram Matrices",
+    "url": "https://www.ndss-symposium.org/wp-content/uploads/2024/09/2023-69-slides.pdf",
+    "description": "Activation-based detection effective against advanced backdoors. NDSS 2024.",
+    "category": "Papers"
+  },
+  {
+    "title": "Model Leeching: An Extraction Attack Targeting LLMs",
+    "url": "https://arxiv.org/abs/2309.10544",
+    "description": "Practical model stealing from GPT-3.5 via API queries. arXiv:2309.10544, 2023.",
+    "category": "Papers"
+  },
+  {
+    "title": "A Watermark for Large Language Models",
+    "url": "https://arxiv.org/abs/2301.10226",
+    "description": "Statistical watermarking for detecting AI-generated text. arXiv:2301.10226, 2023.",
+    "category": "Papers"
+  },
+  {
+    "title": "Membership Inference Attacks on Machine Learning: A Survey",
+    "url": "https://arxiv.org/abs/2103.07853",
+    "description": "First comprehensive survey on MIAs with taxonomies for attacks and defenses. ACM Computing Surveys.",
+    "category": "Papers"
+  },
+  {
+    "title": "A Survey of Privacy Attacks in Machine Learning",
+    "url": "https://dl.acm.org/doi/10.1145/3624010",
+    "description": "Covers membership inference, reconstruction, and model extraction attacks. ACM Computing Surveys.",
+    "category": "Papers"
+  },
+  {
+    "title": "Membership Inference Attacks on Large-Scale Models: A Survey",
+    "url": "https://arxiv.org/abs/2503.19338",
+    "description": "MIAs targeting LLMs and LMMs across pre-training, fine-tuning, and RAG. arXiv:2503.19338, 2025.",
+    "category": "Papers"
+  },
+  {
+    "title": "NeMo Guardrails",
+    "url": "https://github.com/NVIDIA/NeMo-Guardrails",
+    "description": "NVIDIA programmable guardrails for LLM safety and security.",
+    "category": "Tools"
+  },
+  {
+    "title": "TextAttack",
+    "url": "https://github.com/QData/TextAttack",
+    "description": "Library for adversarial attacks on NLP models.",
+    "category": "Tools"
+  },
+  {
+    "title": "SecML",
+    "url": "https://secml.readthedocs.io/",
+    "description": "Secure and explainable ML library with attacks and defenses.",
+    "category": "Tools"
+  },
+  {
+    "title": "Purple Llama (Meta)",
+    "url": "https://github.com/meta-llama/PurpleLlama",
+    "description": "Open-source LLM safety tools including Llama Guard, Prompt Guard, Code Shield, and CyberSec Eval benchmarks.",
+    "category": "Tools"
+  },
+  {
+    "title": "OWASP Top 10 for LLM Applications 2025",
+    "url": "https://owasp.org/www-project-top-10-for-large-language-model-applications/",
+    "description": "Critical risks including prompt injection, sensitive info disclosure, supply chain, and data poisoning.",
+    "category": "Standards"
+  },
+  {
+    "title": "RobustBench",
+    "url": "https://robustbench.github.io/",
+    "description": "Leaderboard for adversarial robustness benchmarking.",
+    "category": "Benchmarks"
+  },
+  {
+    "title": "JailbreakBench",
+    "url": "https://jailbreakbench.github.io/",
+    "description": "Benchmark for LLM jailbreak attacks and defenses.",
+    "category": "Benchmarks"
+  },
+  {
+    "title": "Stanford AIR-Bench 2024",
+    "url": "https://crfm.stanford.edu/helm/air-bench/latest/",
+    "description": "AI safety benchmark aligned with emerging government regulations and company policies.",
+    "category": "Benchmarks"
+  },
+  {
+    "title": "TrustLLM Benchmark",
+    "url": "https://trustllmbenchmark.github.io/TrustLLM-Website/",
+    "description": "Comprehensive trustworthiness benchmark spanning truthfulness, safety, fairness, robustness, privacy, and ethics.",
+    "category": "Benchmarks"
+  },
+  {
+    "title": "FLI AI Safety Index 2024",
+    "url": "https://futureoflife.org/wp-content/uploads/2024/12/AI-Safety-Index-2024-Full-Report-11-Dec-24.pdf",
+    "description": "Future of Life Institute's assessment of AI company safety practices and accountability.",
+    "category": "Benchmarks"
+  },
+  {
+    "title": "MITRE ATLAS",
+    "url": "https://atlas.mitre.org/",
+    "description": "Adversarial Threat Landscape for AI Systems. Threat matrix documenting real-world attacks on ML (like ATT&CK for AI).",
+    "category": "Standards"
+  },
+  {
+    "title": "NIST Adversarial ML Taxonomy",
+    "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-2e2025.pdf",
+    "description": "Standardized terminology and mitigations. NIST IR 100-2, 2025.",
+    "category": "Standards"
+  },
+  {
+    "title": "NIST AI Risk Management Framework",
+    "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+    "description": "Framework for managing AI risks throughout the AI lifecycle.",
+    "category": "Standards"
+  },
+  {
+    "title": "Everything You Wanted to Know About LLM-based Vulnerability Detection",
+    "url": "https://arxiv.org/abs/2504.13474",
+    "description": "Context-rich evaluation showing strong LLM performance. arXiv:2504.13474, 2025.",
+    "category": "Papers"
+  },
+  {
+    "title": "GitHub Copilot Security Evaluation",
+    "url": "https://cyber.nyu.edu/2021/10/15/ccs-researchers-find-github-copilot-generates-vulnerable-code-40-of-the-time/",
+    "description": "~40% of Copilot-generated code contained vulnerabilities. NYU 2022.",
+    "category": "Papers"
+  },
+  {
+    "title": "LLMs in Software Security: A Survey of Vulnerability Detection Techniques",
+    "url": "https://arxiv.org/html/2502.07049v2",
+    "description": "Comprehensive survey on using LLMs for code structure analysis and vulnerability detection. ACM Computing Surveys.",
+    "category": "Papers"
+  },
+  {
+    "title": "ACL 2024 Tutorial: Vulnerabilities of LLMs to Adversarial Attacks",
+    "url": "https://llm-vulnerability.github.io/",
+    "description": "Comprehensive overview of vulnerabilities in unimodal and multimodal LLMs from NLP and cybersecurity perspectives.",
+    "category": "Papers"
+  },
+  {
+    "title": "AI Vulnerability Database (AVID)",
+    "url": "https://avidml.org/",
+    "description": "Community database of AI vulnerabilities and incidents.",
+    "category": "Communities"
+  },
+  {
+    "title": "awesome-ml-privacy-attacks",
+    "url": "https://github.com/stratosphereips/awesome-ml-privacy-attacks",
+    "description": "Curated list of 100+ papers on privacy attacks against machine learning.",
+    "category": "Awesome Lists"
+  },
+  {
+    "title": "LLM Security Papers (chawins/llm-sp)",
+    "url": "https://github.com/chawins/llm-sp",
+    "description": "Papers and resources on LLM security and privacy including indirect prompt injection research.",
+    "category": "Awesome Lists"
+  }
+]
