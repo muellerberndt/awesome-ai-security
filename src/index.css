@@ -100,14 +100,6 @@ body {
   to { opacity: 1; }
 }
 
-@keyframes scan-line {
-  0% {
-    transform: translateY(-100%);
-  }
-  100% {
-    transform: translateY(100vh);
-  }
-}
 
 @keyframes border-glow {
   0%, 100% {
@@ -149,18 +141,6 @@ body {
 .stagger-children > *:nth-child(7) { animation-delay: 0.35s; }
 .stagger-children > *:nth-child(8) { animation-delay: 0.4s; }
 
-/* Scan line effect */
-.scan-line {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 2px;
-  background: linear-gradient(90deg, transparent, var(--accent-purple), transparent);
-  opacity: 0.3;
-  pointer-events: none;
-  animation: scan-line 8s linear infinite;
-}
 
 /* Custom scrollbar */
 ::-webkit-scrollbar {

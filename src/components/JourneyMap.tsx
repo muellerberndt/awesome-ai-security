@@ -53,8 +53,6 @@ export const JourneyMap: React.FC<JourneyMapProps> = ({ onNodeSelect, selectedNo
 
     return (
         <div className="min-h-screen bg-[var(--bg-primary)]">
-            {/* Scan line effect */}
-            <div className="scan-line" />
 
             {/* Header */}
             <div className="pt-24 pb-8 px-6 border-b border-[var(--border-color)]">
