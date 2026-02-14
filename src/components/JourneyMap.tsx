@@ -57,6 +57,7 @@ export const JourneyMap: React.FC<JourneyMapProps> = ({ onNodeSelect, selectedNo
             {/* Header */}
             <div className="pt-24 pb-8 px-6 border-b border-[var(--border-color)]">
                 <div className="max-w-7xl mx-auto">
+                    <a href="https://floatingpragma.io" className="text-[var(--text-muted)] text-xs uppercase tracking-widest hover:text-[var(--accent-primary)] transition-colors mb-4 inline-block" style={{letterSpacing: '0.15em'}}>Pragma</a>
                     <h1 className="text-3xl md:text-4xl font-bold gradient-text mb-2">
                         Awesome AI Security
                     </h1>
