@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import { JourneyMap } from './components/JourneyMap';
 import { NodeData } from './data/graphData';
-import { Star, Github } from 'lucide-react';
+import { Star, Github, Home, Sparkles, FlaskConical, Shield, BookOpen } from 'lucide-react';
 
 function App() {
     const [selectedNode, setSelectedNode] = useState<NodeData | null>(null);
@@ -13,10 +13,61 @@ function App() {
             {/* Header */}
             <header className="fixed top-0 left-0 w-full z-40 bg-[var(--bg-primary)]/90 backdrop-blur-md border-b border-[var(--border-color)] h-16">
                 <div className="mx-auto h-full max-w-7xl px-6 flex items-center justify-between">
-                    {/* Title */}
-                    <span className="text-sm font-medium text-[var(--text-secondary)]">
-                        Awesome AI Security
-                    </span>
+                    <div className="flex items-center gap-3">
+                        {/* Home */}
+                        <a
+                            href="https://floatingpragma.io/"
+                            className="flex items-center gap-1.5 text-[var(--text-muted)] hover:text-[var(--accent-cyan)] transition-colors text-sm"
+                        >
+                            <Home className="w-4 h-4" />
+                            <span className="hidden sm:inline text-xs font-medium">FP</span>
+                        </a>
+
+                        <span className="text-[var(--border-color)]">|</span>
+
+                        {/* Title */}
+                        <span className="text-sm font-medium text-[var(--text-secondary)]">
+                            Awesome AI Security
+                        </span>
+
+                        <span className="hidden sm:inline text-[var(--border-color)]">|</span>
+
+                        {/* ZK Proofs cross-link */}
+                        <a
+                            href="https://floatingpragma.io/awesome-zk-proofs/"
+                            className="hidden sm:flex items-center gap-1.5 text-[var(--text-muted)] hover:text-[var(--accent-purple)] transition-colors"
+                        >
+                            <Sparkles className="w-3.5 h-3.5" />
+                            <span className="text-xs">ZK Proofs</span>
+                        </a>
+
+                        {/* OPH cross-link */}
+                        <a
+                            href="https://floatingpragma.io/oph/"
+                            className="hidden sm:flex items-center gap-1.5 text-[var(--text-muted)] hover:text-[var(--accent-cyan)] transition-colors"
+                        >
+                            <FlaskConical className="w-3.5 h-3.5" />
+                            <span className="text-xs">OPH</span>
+                        </a>
+
+                        {/* StarkLab cross-link */}
+                        <a
+                            href="https://floatingpragma.io/starklab/"
+                            className="hidden sm:flex items-center gap-1.5 text-[var(--text-muted)] hover:text-[var(--accent-purple)] transition-colors"
+                        >
+                            <Sparkles className="w-3.5 h-3.5" />
+                            <span className="text-xs">StarkLab</span>
+                        </a>
+
+                        {/* Selected Works cross-link */}
+                        <a
+                            href="https://floatingpragma.io/selected-works/"
+                            className="hidden sm:flex items-center gap-1.5 text-[var(--text-muted)] hover:text-[var(--accent-amber)] transition-colors"
+                        >
+                            <BookOpen className="w-3.5 h-3.5" />
+                            <span className="text-xs">Selected Works</span>
+                        </a>
+                    </div>
 
                     {/* GitHub Star */}
                     <a
