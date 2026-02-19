@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import { JourneyMap } from './components/JourneyMap';
 import { NodeData } from './data/graphData';
-import { Star, Github, Home, Sparkles, FlaskConical, Shield, BookOpen } from 'lucide-react';
+import { Star, Github, Home, Sparkles, FlaskConical, BookOpen } from 'lucide-react';
 
 function App() {
     const [selectedNode, setSelectedNode] = useState<NodeData | null>(null);
