@@ -419,6 +419,13 @@ export const graphData: NodeData[] = [
         "description": "NVIDIA programmable guardrails for LLM safety and security."
       },
       {
+        "title": "APort",
+        "url": "https://aport.io",
+        "type": "Tool",
+        "rating": 8,
+        "description": "Agent identity verification and runtime policy enforcement for AI agents."
+      },
+      {
         "title": "SecML",
         "url": "https://secml.readthedocs.io/",
         "type": "Tool",

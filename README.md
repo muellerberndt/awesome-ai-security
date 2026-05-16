@@ -76,6 +76,7 @@ Security tools for testing and defending AI systems against adversarial attacks.
 - [AI Agent Exploit Generation in Smart Contracts](https://www.emergentmind.com/topics/ai-agent-smart-contract-exploit-generation) - Autonomous exploit generation using LLMs.
 - [AI-Powered Attack Automation: When Machine Learning Writes the Exploit Code](https://medium.com/@instatunnel/wwai-powered-attack-automation-when-machine-learning-writes-the-exploit-code-9eb00af91a51) - Projections on AI-driven cyberattacks.
 - [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) - NVIDIA programmable guardrails for LLM safety and security.
+- [APort](https://aport.io) - Agent identity verification and runtime policy enforcement for AI agents.
 - [SecML](https://secml.readthedocs.io/) - Secure and explainable ML library with attacks and defenses.
 - [Purple Llama (Meta)](https://github.com/meta-llama/PurpleLlama) - Open-source LLM safety tools including Llama Guard, Prompt Guard, Code Shield, and CyberSec Eval benchmarks.
 
