@@ -78,6 +78,7 @@ Security tools for testing and defending AI systems against adversarial attacks.
 - [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) - NVIDIA programmable guardrails for LLM safety and security.
 - [SecML](https://secml.readthedocs.io/) - Secure and explainable ML library with attacks and defenses.
 - [Purple Llama (Meta)](https://github.com/meta-llama/PurpleLlama) - Open-source LLM safety tools including Llama Guard, Prompt Guard, Code Shield, and CyberSec Eval benchmarks.
+- [ai-evaluation](https://github.com/future-agi/ai-evaluation) - Open-source LLM evaluation framework with 50+ metrics, LLM-as-Judge, and guardrail scanners (jailbreak, PII, prompt-injection) for systematic AI security testing.
 
 ### AI Pentesting
 Using AI assistants and agents for automated penetration testing and security assessments.
