@@ -71,6 +71,8 @@ Model extraction, membership inference, and training data extraction attacks.
 ### Tools & Frameworks
 Security tools for testing and defending AI systems against adversarial attacks.
 
+- [APort](https://aport.io) - AI agent identity verification and policy enforcement for autonomous systems.
+
 - [Counterfit](https://github.com/Azure/counterfit) - Microsoft penetration testing tool for ML systems.
 - [AI Coding Tools Exploded in 2025: The First Security Exploits Followed](https://fortune.com/2025/12/15/ai-coding-tools-security-exploit-software/) - Discusses vulnerabilities in AI-generated code.
 - [AI Agent Exploit Generation in Smart Contracts](https://www.emergentmind.com/topics/ai-agent-smart-contract-exploit-generation) - Autonomous exploit generation using LLMs.
