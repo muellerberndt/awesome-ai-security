@@ -110,6 +110,8 @@ AI-assisted exploit development and attack automation techniques.
 ### AI Security Tools
 Tools that leverage AI for offensive security operations and analysis.
 
+- [TWZRD Agent Intel](https://intel.twzrd.xyz) - On-chain trust scoring for AI agent wallets on Solana. MCP server (, ) for verifying agent identity before x402 micropayments — identity layer for agentic security pipelines. [MCP](https://intel.twzrd.xyz/mcp)
+
 - [Hound](https://github.com/scabench-org/hound) - AI auditor that builds adaptive knowledge graphs for deep code reasoning. Uses tiered AI approach for autonomous vulnerability discovery.
 - [HackGPT](https://github.com/NoDataFound/hackGPT) - LLM toolkit for offensive security.
 - [HackingBuddyGPT](https://github.com/ipa-lab/hackingBuddyGPT) - Autonomous red-teaming agent with benchmarks.
