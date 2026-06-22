@@ -30,6 +30,7 @@ Understand prompt injection attacks that manipulate LLM behavior through crafted
 - [Garak](https://github.com/NVIDIA/garak) - NVIDIA's LLM vulnerability scanner with dozens of plugins testing for jailbreaks, prompt injection, data leakage, and more.
 - [Vigil LLM](https://github.com/deadbits/vigil-llm) - Detects prompt injections and risky inputs.
 - [EasyJailbreak](https://github.com/EasyJailbreak/EasyJailbreak) - Framework for adversarial jailbreak prompts.
+- [Prompt Shield](https://github.com/mthamil107/prompt-shield) - Open-source prompt injection detection engine with 27 detectors and cross-domain techniques from bioinformatics and forensic linguistics.
 - [AI Village @ DEF CON](https://aivillage.org/) - Challenges like LLM Jailbreak and AI security research.
 - [Agent Browser Shield](https://github.com/pixiebrix/agent-browser-shield) - Browser extension that strips prompt injection (hidden text and HTML comments) from web pages before an AI agent's model sees them; also masks PII and removes dark patterns.
 
