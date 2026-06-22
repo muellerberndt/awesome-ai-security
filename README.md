@@ -31,6 +31,7 @@ Understand prompt injection attacks that manipulate LLM behavior through crafted
 - [Vigil LLM](https://github.com/deadbits/vigil-llm) - Detects prompt injections and risky inputs.
 - [EasyJailbreak](https://github.com/EasyJailbreak/EasyJailbreak) - Framework for adversarial jailbreak prompts.
 - [AI Village @ DEF CON](https://aivillage.org/) - Challenges like LLM Jailbreak and AI security research.
+- [Agent Browser Shield](https://github.com/pixiebrix/agent-browser-shield) - Browser extension that strips prompt injection (hidden text and HTML comments) from web pages before an AI agent's model sees them; also masks PII and removes dark patterns.
 
 ### Adversarial Attacks
 Learn how adversarial examples fool neural networks and methods to defend against them.
@@ -71,6 +72,8 @@ Model extraction, membership inference, and training data extraction attacks.
 ### Tools & Frameworks
 Security tools for testing and defending AI systems against adversarial attacks.
 
+- [APort](https://aport.io) - AI agent identity verification and policy enforcement for autonomous systems.
+
 - [Counterfit](https://github.com/Azure/counterfit) - Microsoft penetration testing tool for ML systems.
 - [AI Coding Tools Exploded in 2025: The First Security Exploits Followed](https://fortune.com/2025/12/15/ai-coding-tools-security-exploit-software/) - Discusses vulnerabilities in AI-generated code.
 - [AI Agent Exploit Generation in Smart Contracts](https://www.emergentmind.com/topics/ai-agent-smart-contract-exploit-generation) - Autonomous exploit generation using LLMs.
@@ -79,6 +82,8 @@ Security tools for testing and defending AI systems against adversarial attacks.
 - [SecML](https://secml.readthedocs.io/) - Secure and explainable ML library with attacks and defenses.
 - [Purple Llama (Meta)](https://github.com/meta-llama/PurpleLlama) - Open-source LLM safety tools including Llama Guard, Prompt Guard, Code Shield, and CyberSec Eval benchmarks.
 - [Agent-Wiz](https://github.com/Repello-AI/Agent-Wiz) - Repello AI's open-source CLI that extracts agentic workflows from LangChain/LangGraph/CrewAI/AutoGen and runs automated threat modeling against the resulting graphs.
+- [ai-evaluation](https://github.com/future-agi/ai-evaluation) - Open-source LLM evaluation framework with 50+ metrics, LLM-as-Judge, and guardrail scanners (jailbreak, PII, prompt-injection) for systematic AI security testing.
+- [SkilLock](https://github.com/skills-lock/skil-lock) - Behavior-pinning lockfile and capability-delta PR review for Claude Code and Codex agent skills; blocks unapproved drift (shell, network, file access) in CI with SARIF output for Code Scanning.
 
 ### AI Pentesting
 Using AI assistants and agents for automated penetration testing and security assessments.
