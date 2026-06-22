@@ -33,6 +33,7 @@ Understand prompt injection attacks that manipulate LLM behavior through crafted
 - [Prompt Shield](https://github.com/mthamil107/prompt-shield) - Open-source prompt injection detection engine with 27 detectors and cross-domain techniques from bioinformatics and forensic linguistics.
 - [AI Village @ DEF CON](https://aivillage.org/) - Challenges like LLM Jailbreak and AI security research.
 - [Agent Browser Shield](https://github.com/pixiebrix/agent-browser-shield) - Browser extension that strips prompt injection (hidden text and HTML comments) from web pages before an AI agent's model sees them; also masks PII and removes dark patterns.
+- [hego.red](https://hego.red/) - Practical, hands-on guide to AI/LLM red teaming: prompt injection, jailbreaks, indirect injection, RAG, agents, and a full methodology.
 
 ### Adversarial Attacks
 Learn how adversarial examples fool neural networks and methods to defend against them.
