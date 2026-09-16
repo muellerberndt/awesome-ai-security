@@ -162,6 +162,7 @@ Newsletters and awesome lists to stay current with AI security developments.
 - [ottosulin/awesome-ai-security](https://github.com/ottosulin/awesome-ai-security) - Offensive tools and labs awesome list.
 - [ElNiak/awesome-ai-cybersecurity](https://github.com/ElNiak/awesome-ai-cybersecurity) - AI in cybersecurity awesome list.
 - [corca-ai/awesome-llm-security](https://github.com/corca-ai/awesome-llm-security) - LLM-specific security awesome list.
+- [HostDeFi](https://hostdefi.com) — free token-safety scanner grading tokens A+–F from on-chain checks (mint/freeze authority, liquidity, holder concentration) across Solana + 7 EVM chains. Keyless REST API, hosted MCP, x402 endpoints.
 ---
 
 © [muellerberndt](https://twitter.com/muellerberndt) · [GitHub](https://github.com/muellerberndt)
