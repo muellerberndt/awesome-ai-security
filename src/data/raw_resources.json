@@ -708,5 +708,11 @@
     "url": "https://github.com/yanghao1143/rust-norion",
     "description": "Rust control layer for local LLM agents with writer and evidence gates, memory and replay governance, and rollback, so agent self-modification stays inspectable and reversible.",
     "category": "Tools"
+  },
+  {
+    "title": "Orca AI Incident Archive",
+    "url": "https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive",
+    "description": "Open database of real-world AI agent security incidents, one sourced record each, that flags confirmed harm and AI involvement separately from researcher demonstrations; JSON/CSV exports under CC BY 4.0.",
+    "category": "Communities"
   }
 ]
