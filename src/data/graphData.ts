@@ -585,6 +585,13 @@ export const graphData: NodeData[] = [
         "type": "Tool",
         "rating": 8,
         "description": "Rust control layer for local LLM agents with writer and evidence gates, memory and replay governance, and rollback, so agent self-modification stays inspectable and reversible."
+      },
+      {
+        "title": "SUNGLASSES",
+        "url": "https://github.com/sunglasses-dev/sunglasses",
+        "type": "Tool",
+        "rating": 8,
+        "description": "Open-source local input firewall for AI agents that scans text, files, PDFs, images and QR codes for prompt injection, credential leaks and data exfiltration with 1,554 patterns across 118 categories, shipped as a CLI, Python API, MCP server and Claude Code hook."
       }
     ],
     "x": -2.232,
