@@ -122,6 +122,7 @@ Security tools for testing and defending AI systems against adversarial attacks.
 - [AgentShield](https://github.com/elliotllliu/agent-shield) - Scanner for MCP servers, agent skills and plugins that runs thirteen engines over a package and returns one report. Runs offline via npx with no install.
 - [SpecLock](https://github.com/sgroy10/speclock) - Enforces the constraints written in CLAUDE.md, AGENTS.md and .cursorrules before an AI coding agent edits a file, runs a shell command or commits, with an override audit trail and an MCP server.
 - [rust-norion](https://github.com/yanghao1143/rust-norion) - Rust control layer for local LLM agents with writer and evidence gates, memory and replay governance, and rollback, so agent self-modification stays inspectable and reversible.
+- [crosscheck skillcheck](https://github.com/maxugc/crosscheck) - Paid API and hosted MCP server that security-reviews an agent skill or MCP server before install: code rules for credential theft, exfiltration, pipe-to-shell and lookalike packages, plus a model review, returned with a signed receipt.
 
 ### AI Pentesting
 Using AI assistants and agents for automated penetration testing and security assessments.

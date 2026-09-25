@@ -708,5 +708,11 @@
     "url": "https://github.com/yanghao1143/rust-norion",
     "description": "Rust control layer for local LLM agents with writer and evidence gates, memory and replay governance, and rollback, so agent self-modification stays inspectable and reversible.",
     "category": "Tools"
+  },
+  {
+    "title": "crosscheck skillcheck",
+    "url": "https://github.com/maxugc/crosscheck",
+    "description": "Paid API and hosted MCP server that security-reviews an agent skill or MCP server before install: code rules for credential theft, exfiltration, pipe-to-shell and lookalike packages, plus a model review, returned with a signed receipt.",
+    "category": "Tools"
   }
 ]
