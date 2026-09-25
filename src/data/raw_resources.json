@@ -632,6 +632,12 @@
     "category": "Standards"
   },
   {
+    "title": "agent-evidence-vectors",
+    "url": "https://github.com/probityai/agent-evidence-vectors",
+    "description": "Conformance vectors and a reference Go verifier for in-toto attestations of AI agent execution, plus SCITT/COSE carriage vectors that keep their own checker until the verifier reads them. Each outcome is recomputed from the bytes the attestation carries.",
+    "category": "Standards"
+  },
+  {
     "title": "Nika",
     "url": "https://github.com/supernovae-st/nika",
     "description": "Rust workflow engine for AI runs with hash-chained execution traces, default-deny allowlists for shell, network, file and tool access, and static secret-flow analysis.",
