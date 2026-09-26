@@ -896,6 +896,13 @@ export const graphData: NodeData[] = [
         "type": "Article",
         "rating": 8,
         "description": "Open detection-rule standard for AI agent threats across ten categories, with MITRE ATLAS and OWASP crosswalks. Sigma-style executable rules, MIT-licensed."
+      },
+      {
+        "title": "agent-evidence-vectors",
+        "url": "https://github.com/probityai/agent-evidence-vectors",
+        "type": "Article",
+        "rating": 8,
+        "description": "Conformance vectors and a reference Go verifier for in-toto attestations of AI agent execution, plus SCITT/COSE carriage vectors that keep their own checker until the verifier reads them. Each outcome is recomputed from the bytes the attestation carries."
       }
     ],
     "x": 0,
