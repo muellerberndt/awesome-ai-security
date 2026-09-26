@@ -195,6 +195,7 @@ AI security communities, conferences, and events to stay connected.
 - [MLSecOps Podcast](https://mlsecops.com/podcast) - ML security discussions and interviews.
 - [GenAI Security Podcast](https://podcasts.apple.com/ph/podcast/the-genai-security-podcast/id1782916580) - Generative AI security topics and news.
 - [AI Vulnerability Database (AVID)](https://avidml.org/) - Community database of AI vulnerabilities and incidents.
+- [Orca AI Incident Archive](https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive) - Open database of real-world AI agent security incidents, one sourced record each, that flags confirmed harm and AI involvement separately from researcher demonstrations; JSON/CSV exports under CC BY 4.0.
 
 ### Newsletters & Lists
 Newsletters and awesome lists to stay current with AI security developments.

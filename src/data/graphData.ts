@@ -991,6 +991,13 @@ export const graphData: NodeData[] = [
         "type": "Article",
         "rating": 8,
         "description": "Community database of AI vulnerabilities and incidents."
+      },
+      {
+        "title": "Orca AI Incident Archive",
+        "url": "https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive",
+        "type": "Article",
+        "rating": 8,
+        "description": "Open database of real-world AI agent security incidents, one sourced record each, that flags confirmed harm and AI involvement separately from researcher demonstrations; JSON/CSV exports under CC BY 4.0."
       }
     ],
     "x": 0,
