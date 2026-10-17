@@ -152,6 +152,7 @@ AI-assisted exploit development and attack automation techniques.
 ### AI Security Tools
 Tools that leverage AI for offensive security operations and analysis.
 
+- [Koru](https://github.com/bekaans/koru) - Deception-based runtime defense for Linux servers: traps AI attack agents and catches hijacked AI agents (MCP servers, coding assistants) with decoy files and kernel-level (eBPF) read detection plus process-lineage attribution.
 - [Hound](https://github.com/scabench-org/hound) - AI auditor that builds adaptive knowledge graphs for deep code reasoning. Uses tiered AI approach for autonomous vulnerability discovery.
 - [HackGPT](https://github.com/NoDataFound/hackGPT) - LLM toolkit for offensive security.
 - [HackingBuddyGPT](https://github.com/ipa-lab/hackingBuddyGPT) - Autonomous red-teaming agent with benchmarks.
