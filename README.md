@@ -122,6 +122,7 @@ Security tools for testing and defending AI systems against adversarial attacks.
 - [Ironheights](https://github.com/Frank-Masciopinto/ironheights) - Local-first static scanner for OpenClaw and ClawHub agent skills that flags prompt injection, hidden text, credential reads, remote-exec installs and persistence before install, and keeps an integrity baseline to catch later changes to skill files.
 - [llm-redteam-banking-checklist](https://github.com/ErcinDedeoglu/llm-redteam-banking-checklist) - Go-live gate for LLM red teaming in banking that scores findings by harm category and severity, checks five go/no-go gates, and fails pytest or GitHub Actions when a gate is red.
 - [Mudroom](https://github.com/Kernel-Hunter/mudroom) - Runs coding agents such as Claude Code, Codex and Gemini CLI in a Linux micro-VM on a copy-on-write clone of the project, with outbound traffic limited to an allowlist proxy, then shows the diff so you apply files or hunks.
+- [Agent Security Harness](https://github.com/msaleme/red-team-blue-team-agent-fabric) - Apache-2.0 adversarial test harness for AI agents across MCP, A2A, x402/L402, human-in-the-loop and skill supply chain, with verdicts tested against target shapes on which they must be able to fail as well as pass and coverage commit-pinned to OWASP Agentic v1.1 T1–T17.
 
 ### AI Pentesting
 Using AI assistants and agents for automated penetration testing and security assessments.
