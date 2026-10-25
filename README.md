@@ -166,6 +166,7 @@ Tools that leverage AI for offensive security operations and analysis.
 - [AI Security Analyzer](https://github.com/xvnpw/ai-security-analyzer) - Generates security docs from codebases.
 - [BurpGPT](https://github.com/aress31/burpgpt) - Burp Suite extension for AI-powered vulnerability scanning.
 - [CAI: Cybersecurity AI](https://github.com/aliasrobotics/cai) - Framework for building AI-driven security tools by Alias Robotics.
+- [Vulnerability Exposure Analyzer](https://github.com/MRFrazer25/Vulnerability-Exposure-Analyzer) - AI agent that checks IPs, domains, CVEs and software versions for vulnerabilities confirmed by NVD version ranges and checks its own report against the source data; also available as an MCP server.
 
 ### Benchmarks & Standards
 Industry standards, threat frameworks, and evaluation benchmarks for AI security.
