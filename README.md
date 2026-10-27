@@ -143,6 +143,7 @@ AI-powered vulnerability scanning, code analysis, and bug detection.
 - [Exploring the Role of Generative AI in Enhancing Cybersecurity](https://www.sciencedirect.com/science/article/pii/S2590005625001365) - GenAI for vulnerability detection and secure coding. Computers & Security, 2025.
 - [GhidraGPT](https://github.com/ZeroDaysBroker/GhidraGPT) - Integrates GPT models into Ghidra for automated code analysis, vulnerability detection, and explanation generation.
 - [Semgrep](https://semgrep.dev/) - AI-assisted SAST combining rules-based scanning with LLM-powered detection for business logic flaws like IDORs.
+- [Safeguard](https://safeguard.sh) - Commercial software supply chain security platform with a free tier. Generates SBOMs, uses AI to check whether vulnerabilities are reachable and opens tested, policy-gated fix pull requests.
 - [Everything You Wanted to Know About LLM-based Vulnerability Detection](https://arxiv.org/abs/2504.13474) - Context-rich evaluation showing strong LLM performance. arXiv:2504.13474, 2025.
 - [GitHub Copilot Security Evaluation](https://cyber.nyu.edu/2021/10/15/ccs-researchers-find-github-copilot-generates-vulnerable-code-40-of-the-time/) - ~40% of Copilot-generated code contained vulnerabilities. NYU 2022.
 - [LLMs in Software Security: A Survey of Vulnerability Detection Techniques](https://arxiv.org/html/2502.07049v2) - Comprehensive survey on using LLMs for code structure analysis and vulnerability detection. ACM Computing Surveys.
