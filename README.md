@@ -181,6 +181,7 @@ Industry standards, threat frameworks, and evaluation benchmarks for AI security
 - [agent-evidence-vectors](https://github.com/probityai/agent-evidence-vectors) - Conformance vectors and a reference Go verifier for in-toto attestations of AI agent execution, plus SCITT/COSE carriage vectors that keep their own checker until the verifier reads them. Each outcome is recomputed from the bytes the attestation carries.
 - [PIC Standard](https://github.com/pic-standard/pic-standard) - Open protocol and verifier that require an AI agent to declare the intent, impact, provenance and evidence behind a high-impact tool call, and block the call before execution when that evidence does not verify. Python and TypeScript implementations are checked against shared conformance vectors.
 - [Decision Models as Guardrails](https://github.com/raxITlabs/decision-models-as-guardrails) - Open benchmark that runs 18 decision models and Amazon Bedrock Guardrails on the same 9,975 labelled guardrail checks, covering prompt attacks, content, denied topics, profanity, PII and grounding, and reports balanced accuracy and cost per 1,000 checks.
+- [AGI Meridian: AI hacking](https://auerin.com/frontier/ai-hacking/) - Tracks how well AI models do on expert-level hacking tests, with step-by-step timelines of two real cases, the Hugging Face incident and PHP2Shell.
 
 ### Books
 Essential books covering AI security, adversarial ML, and security applications.
