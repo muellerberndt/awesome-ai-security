@@ -97,6 +97,7 @@ Model extraction, membership inference, and training data extraction attacks.
 Security tools for testing and defending AI systems against adversarial attacks.
 
 - [APort](https://aport.io) - AI agent identity verification and policy enforcement for autonomous systems.
+- [HOL Guard](https://github.com/hashgraph-online/hol-guard) - Open-source local policy checks for covered AI coding-agent tool actions, with approval or blocking before execution.
 - [Counterfit](https://github.com/Azure/counterfit) - Microsoft penetration testing tool for ML systems.
 - [Whistleblower](https://github.com/Repello-AI/whistleblower) - Repello AI's offensive tool for testing LLM applications against system prompt leakage attacks.
 - [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) - NVIDIA programmable guardrails for LLM safety and security.
