@@ -162,6 +162,7 @@ Tools that leverage AI for offensive security operations and analysis.
 - [HackGPT](https://github.com/NoDataFound/hackGPT) - LLM toolkit for offensive security.
 - [HackingBuddyGPT](https://github.com/ipa-lab/hackingBuddyGPT) - Autonomous red-teaming agent with benchmarks.
 - [GhidrAssist](https://github.com/jtang613/GhidrAssist) - LLM extension for Ghidra with ReAct agentic mode for autonomous reverse engineering investigation.
+- [ReverseAI](https://github.com/dagoSte/reverseai) - Static reverse engineering of untrusted binaries, Android apps and JavaScript packages that runs Ghidra, JADX, LIEF, YARA-X and Babel in offline containers, checks every reported fact against the file's bytes, serves it to AI agents over MCP, and can rebuild a native program as C or C++ with a team of agents reviewed by an independent council.
 - [PyRIT (Python Risk Identification Tool)](https://github.com/Azure/PyRIT) - Microsoft red-teaming framework for generative AI. Automates adversarial prompt generation and risk assessment.
 - [AI Security Analyzer](https://github.com/xvnpw/ai-security-analyzer) - Generates security docs from codebases.
 - [BurpGPT](https://github.com/aress31/burpgpt) - Burp Suite extension for AI-powered vulnerability scanning.
