@@ -55,6 +55,7 @@ Understand prompt injection attacks that manipulate LLM behavior through crafted
 - [hego.red](https://hego.red/) - Hands-on notes on LLM red teaming: prompt injection, jailbreaks, indirect injection, RAG and agent testing, with a scoping methodology and worked labs.
 - [Koma](https://github.com/swnotmetal/Project-Koma) - Zero-dependency Node.js and TypeScript library that filters prompt injection, audio hallucinations and RAG scraping at the application boundary.
 - [Sentinel Scan CLI](https://github.com/Ventrova/sentinel-scan-cli) - CLI and MCP server that scans MCP manifests for tool poisoning and rug-pulls, and runs a prompt injection and jailbreak suite against your own LLM endpoint.
+- [AI Chatbot Red-Team Starter](https://github.com/kaito3636/ai-chatbot-redteam-starter) - Free MIT starter of 20 adversarial prompts with a promptfoo config to test your own chatbot or custom GPT for prompt injection, system-prompt extraction, and data leaks. Mapped to the OWASP LLM Top 10.
 - [RansomLeak AI Security Training](https://ransomleak.com/catalogue/ai-security/) - Browser-based labs on prompt injection, jailbreaking and LLM attack scenarios, mapped to the OWASP Top 10 for LLM and agentic AI. Commercial training.
 - [Skill-audit](https://github.com/AgentPostmortem/Skill-audit) - Scanner for agent skills that flags prompt injection, dangerous shell use and secret access before installation. 31 rules, SARIF output, zero dependencies.
 
