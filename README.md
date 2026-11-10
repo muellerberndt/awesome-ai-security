@@ -122,6 +122,7 @@ Security tools for testing and defending AI systems against adversarial attacks.
 - [Ironheights](https://github.com/Frank-Masciopinto/ironheights) - Local-first static scanner for OpenClaw and ClawHub agent skills that flags prompt injection, hidden text, credential reads, remote-exec installs and persistence before install, and keeps an integrity baseline to catch later changes to skill files.
 - [llm-redteam-banking-checklist](https://github.com/ErcinDedeoglu/llm-redteam-banking-checklist) - Go-live gate for LLM red teaming in banking that scores findings by harm category and severity, checks five go/no-go gates, and fails pytest or GitHub Actions when a gate is red.
 - [Mudroom](https://github.com/Kernel-Hunter/mudroom) - Runs coding agents such as Claude Code, Codex and Gemini CLI in a Linux micro-VM on a copy-on-write clone of the project, with outbound traffic limited to an allowlist proxy, then shows the diff so you apply files or hunks.
+- [Argus](https://github.com/gy15901580825/Argus) - Black-box red-team CLI for AI agents that runs probes through a chat endpoint, a browser, MCP tools or a mock payment merchant and maps findings to OWASP LLM Top 10, MITRE ATLAS and NIST AI RMF, with SARIF output and a GitHub Action.
 
 ### AI Pentesting
 Using AI assistants and agents for automated penetration testing and security assessments.
