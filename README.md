@@ -123,6 +123,8 @@ Security tools for testing and defending AI systems against adversarial attacks.
 - [llm-redteam-banking-checklist](https://github.com/ErcinDedeoglu/llm-redteam-banking-checklist) - Go-live gate for LLM red teaming in banking that scores findings by harm category and severity, checks five go/no-go gates, and fails pytest or GitHub Actions when a gate is red.
 - [Mudroom](https://github.com/Kernel-Hunter/mudroom) - Runs coding agents such as Claude Code, Codex and Gemini CLI in a Linux micro-VM on a copy-on-write clone of the project, with outbound traffic limited to an allowlist proxy, then shows the diff so you apply files or hunks.
 
+- [ControlLayer](https://github.com/garroshub/ControlLayer) - Deterministic execution-time authorization gate for tool-using agents that checks policy, identity, destination and permitted source content before a tool call runs, with a paired AgentDojo evaluation and audit records.
+
 ### AI Pentesting
 Using AI assistants and agents for automated penetration testing and security assessments.
 
