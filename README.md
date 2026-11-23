@@ -122,6 +122,8 @@ Security tools for testing and defending AI systems against adversarial attacks.
 - [Ironheights](https://github.com/Frank-Masciopinto/ironheights) - Local-first static scanner for OpenClaw and ClawHub agent skills that flags prompt injection, hidden text, credential reads, remote-exec installs and persistence before install, and keeps an integrity baseline to catch later changes to skill files.
 - [llm-redteam-banking-checklist](https://github.com/ErcinDedeoglu/llm-redteam-banking-checklist) - Go-live gate for LLM red teaming in banking that scores findings by harm category and severity, checks five go/no-go gates, and fails pytest or GitHub Actions when a gate is red.
 - [Mudroom](https://github.com/Kernel-Hunter/mudroom) - Runs coding agents such as Claude Code, Codex and Gemini CLI in a Linux micro-VM on a copy-on-write clone of the project, with outbound traffic limited to an allowlist proxy, then shows the diff so you apply files or hunks.
+- [agent-bound](https://github.com/dortort/agent-bound) - Access control framework for MCP servers with Android-style declarative permission manifests and runtime least-privilege enforcement.
+- [ai-tool-guard](https://github.com/dortort/ai-tool-guard) - Policy enforcement middleware for Vercel AI SDK tool calls covering guards, approvals, prompt-injection detection, output filtering, MCP drift detection, and OpenTelemetry tracing.
 
 ### AI Pentesting
 Using AI assistants and agents for automated penetration testing and security assessments.
