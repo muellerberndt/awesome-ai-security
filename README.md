@@ -92,6 +92,7 @@ Model extraction, membership inference, and training data extraction attacks.
 - [TrustLLM Benchmark](https://trustllmbenchmark.github.io/TrustLLM-Website/) - Comprehensive trustworthiness benchmark spanning truthfulness, safety, fairness, robustness, privacy, and ethics.
 - [awesome-ml-privacy-attacks](https://github.com/stratosphereips/awesome-ml-privacy-attacks) - Curated list of 100+ papers on privacy attacks against machine learning.
 - [SecuredAI](https://securedai.com/) - Client-side prompt DLP for privacy: detects and masks PII and PHI before a prompt reaches the model, then restores the originals locally. Commercial.
+- [PrivacyScrubber](https://privacyscrubber.com/) - Local in-memory PII and secrets sanitizer for browser AI chats, MCP coding agents ([privacyscrubber-mcp](https://github.com/moxno/privacyscrubber-mcp)), and Node.js/WASM pipelines; masks sensitive data in local RAM before LLM dispatch and restores originals locally. Free tier / commercial.
 
 ### Tools & Frameworks
 Security tools for testing and defending AI systems against adversarial attacks.
